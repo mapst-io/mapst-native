@@ -1,0 +1,7 @@
+[package]
+name = "mapst-native"
+version = "0.0.1"
+authors = ["Yaroslav Biletskyi <yaroslav.biletskyi.96@gmail.com>"]
+edition = "2018"
+
+[dependencies]
