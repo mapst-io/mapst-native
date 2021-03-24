@@ -1,0 +1,3 @@
+[submodule "mapst-core"]
+	path = mapst-core
+	url = https://github.com/mapst-io/mapst-core.git
