@@ -5,3 +5,4 @@ authors = ["Yaroslav Biletskyi <yaroslav.biletskyi.96@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+geometry = { path = "../../mapst-core/geometry" }
