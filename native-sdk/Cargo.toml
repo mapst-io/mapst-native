@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "render-backend/",
+    "render-frontend/",
+]
