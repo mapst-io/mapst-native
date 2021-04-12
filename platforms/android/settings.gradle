@@ -1,1 +1,1 @@
-include ':sdk-core', ':sdk', ':examples'
+include ':sdk-map', ':examples'

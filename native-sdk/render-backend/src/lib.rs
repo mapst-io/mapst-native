@@ -4,10 +4,10 @@ use std::any::Any;
 
 
 fn test() {
-    let point: Point<i64> = Point::max();
-    let d = point.clone();
-    let k = point;
-    let s = Point::new(111, 2222);
+    let mut previous: Point<i32> = Point::new(32, 32);
+    let next: Point<i32> = Point::new(64, 64);
+    previous += &next;
+    previous.clone();
 }
 
 #[cfg(test)]

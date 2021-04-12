@@ -1,0 +1,12 @@
+[package]
+name = "native-map"
+version = "0.0.1"
+authors = ["Yaroslav Biletskyi <yaroslav.biletskyi.96@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "sdkmap"
+crate_type = ["staticlib", "dylib"]
+
+[dependencies]
+jni = "0.5.2"
